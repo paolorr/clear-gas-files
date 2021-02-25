@@ -11,6 +11,13 @@
 		return;
 	}
 
+	try {
+		await fs.access(directory);
+	} catch (err) {
+		console.error('ERROR: Directory not found');
+		return;
+	}
+
 	const dirContent = await fs.readdir(directory);
 
 	for (const file of dirContent) {
