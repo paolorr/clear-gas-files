@@ -1,0 +1,12 @@
+{
+  "name": "clear-gas-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear-plog": "node index.js \"C:\\Users\\Paolo Ramos\\Documents\\Projects\\RCR\\PeopleLog\\VB6\"",
+    "clear-pdev": "node index.js \"C:\\Users\\Paolo Ramos\\Documents\\Projects\\RCR\\PeopleDev\\VB6 - Copy\""
+  },
+  "author": "",
+  "license": "ISC"
+}
